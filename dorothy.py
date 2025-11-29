@@ -23,7 +23,7 @@ from responses4u import responses
 
 
 try:
-    genai.configure(api_key="AIzaSyASiPTqgBK60DFsXSHpLGtQJeQAtPv6h2w")
+    genai.configure(api_key="")
     model = genai.GenerativeModel('gemini-2.5-flash-lite')
     GEMINI_ENABLED = True
     print("✅ Gemini AI enabled!")
